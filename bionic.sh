@@ -4,7 +4,7 @@ TARGET_DIR=$PWD/ubuntu
 CACHE_DIR=$PWD/cache
 MIRROR=http://mirror.yandex.ru/ubuntu
 IMAGE=$RELEASE.qcow2
-PKGS=linux-generic,grub-pc,openssh-server,locales,nano,iputils-ping,iputils-arping,isc-dhcp-client,ifupdown
+PKGS=linux-virtual,grub-pc,openssh-server,locales,nano,iputils-ping,iputils-arping,isc-dhcp-client,ifupdown
 IMG_USER=user
 IMG_PASSWD=password
 
